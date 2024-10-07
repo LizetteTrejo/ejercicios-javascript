@@ -10,7 +10,7 @@ function doubleArray(arr) {
     /* .map crea un nuevo array */
     let array2 = arr.map(num => num*2);
     /* lo imprimimos en el html */
-    document.getElementById("map").textContent = array2.join();
+    document.getElementById("map").textContent = ("El doble de [1, 2, 3, 4] es: [") + array2+ ("]") ;
     /* lo imprimimos en consola */
     console.log(array2);
 }
